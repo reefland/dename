@@ -5,7 +5,7 @@ Bash script to detect linux desktop environment name and version
 
 ## How to use:
 
-* `wget https://raw.github.com/alexeevdv/dename/master/dename.sh`
+* `wget https://raw.github.com/reefland/dename/master/dename.sh`
 * `chmod +x dename.sh`
 * `./dename.sh` - prints name and version
 * `./dename.sh -n` - prints only name
@@ -13,8 +13,8 @@ Bash script to detect linux desktop environment name and version
 
 ## Can detect (Detected name - Original name):
 
-* GNOME - Gnome 2, Gnome 3 
-* KDE - KDE4
+* GNOME - Gnome 2, Gnome 3
+* KDE - KDE4, KDE5
 * UNITY - Ubuntu Unity
 * XFCE - XFCE
 * CINNAMON - Cinnamon
@@ -24,9 +24,11 @@ Bash script to detect linux desktop environment name and version
 
 ## Tested in:
 
+* CentOS 6.5
+* Fedora 20
 * Knoppix 7.0.5
 * Kubuntu 13.10
 * Lubuntu 12.04, 12.10, 13.04, 13.10
-* Fedora 20
-* CentOS 6.5
+* Manjaro with KDE5
 * Red Hat Enterprise Edition 6.2
+* Ubuntu 20.04
